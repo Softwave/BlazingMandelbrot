@@ -1,0 +1,20 @@
+ImVec4* colors = ImGui::GetStyle().Colors;
+colors[ImGuiCol_WindowBg]               = ImVec4(0.29f, 0.31f, 0.87f, 0.94f);
+colors[ImGuiCol_FrameBg]                = ImVec4(0.00f, 0.00f, 0.00f, 0.54f);
+colors[ImGuiCol_FrameBgHovered]         = ImVec4(0.06f, 0.73f, 0.10f, 0.40f);
+colors[ImGuiCol_FrameBgActive]          = ImVec4(0.06f, 0.73f, 0.10f, 0.40f);
+colors[ImGuiCol_TitleBg]                = ImVec4(0.65f, 0.00f, 0.45f, 1.00f);
+colors[ImGuiCol_TitleBgActive]          = ImVec4(0.85f, 0.17f, 0.29f, 1.00f);
+colors[ImGuiCol_SliderGrab]             = ImVec4(0.85f, 0.17f, 0.29f, 1.00f);
+colors[ImGuiCol_SliderGrabActive]       = ImVec4(0.85f, 0.17f, 0.29f, 1.00f);
+
+ImVec4* colors = ImGui::GetStyle().Colors;
+colors[ImGuiCol_TitleBg]                = ImVec4(0.52f, 0.28f, 0.81f, 1.00f);
+colors[ImGuiCol_TitleBgActive]          = ImVec4(0.52f, 0.28f, 0.81f, 1.00f);
+
+ImVec4* colors = ImGui::GetStyle().Colors;
+colors[ImGuiCol_ScrollbarBg]            = ImVec4(0.07f, 0.10f, 0.15f, 0.97f);
+colors[ImGuiCol_ScrollbarGrab]          = ImVec4(0.85f, 0.17f, 0.31f, 1.00f);
+colors[ImGuiCol_ScrollbarGrabHovered]   = ImVec4(0.85f, 0.17f, 0.29f, 1.00f);
+colors[ImGuiCol_ScrollbarGrabActive]    = ImVec4(0.85f, 0.17f, 0.31f, 1.00f);
+
