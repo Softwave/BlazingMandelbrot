@@ -158,7 +158,7 @@ int main()
 		if (canDrawAbout)
 		{
 			ImGui::Begin("About");
-			ImGui::Text("Blazing Mandelbrot");
+			ImGui::Text("Blazing Mandelbrot v 1.1");
 			ImGui::Separator();
 			ImGui::Text("By Jessica Leyba 2021");
 			ImGui::Text("s0ftwave.com");
