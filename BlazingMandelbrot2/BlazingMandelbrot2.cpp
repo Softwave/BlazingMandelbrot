@@ -51,6 +51,11 @@ int main()
 {
 	sf::RenderWindow window(sf::VideoMode(W, H), "Blazing Mandelbrot");
 	ImGui::SFML::Init(window); 
+	
+	// Setup the icon 
+	sf::Image icon;
+	icon.loadFromFile("mainicon.png");
+	window.setIcon(icon.getSize().x, icon.getSize().y, icon.getPixelsPtr());
 
 	sf::Texture tex;
 	tex.create(W, H);
