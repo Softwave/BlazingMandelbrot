@@ -97,13 +97,11 @@ int main()
 	colors[ImGuiCol_ScrollbarGrabHovered] = ImVec4(0.85f, 0.17f, 0.29f, 1.00f);
 	colors[ImGuiCol_ScrollbarGrabActive] = ImVec4(0.85f, 0.17f, 0.31f, 1.00f);
 
-    // ... (Rest of the code remains unchanged)
-
     // Add this flag to handle saving the screenshot
-    //bool saveScreenshot = false;
+    bool saveScreenshot = false;
 
     // Main loop
-test    while (window.isOpen())
+    while (window.isOpen())
     {
         // Poll for events
         sf::Event e;

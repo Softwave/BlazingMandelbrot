@@ -18,4 +18,7 @@ project(Blazing-Mandelbrot
 add_subdirectory(dependencies)
 add_subdirectory(src)
 
-set (CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+set (CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/src/)
+
+file(COPY src/frag.glsl DESTINATION ${CMAKE_BINARY_DIR}/src)
+file(COPY src/mainicon.png DESTINATION ${CMAKE_BINARY_DIR}/src)
